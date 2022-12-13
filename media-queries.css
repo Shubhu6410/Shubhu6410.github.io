@@ -1,0 +1,81 @@
+@media screen and (max-width: 991px) {
+  header nav{
+    position: fixed;
+  }
+  .nav-links{
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 100%;
+    padding-block: 1rem;
+    height: 0;
+    background-color: inherit;
+    border-top: 2px solid rgba(223, 223, 223, 0.611);
+    flex-direction: column;
+    gap: .3rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+  }
+
+  .nav-links.active{
+    height: fit-content;
+    visibility: visible;
+    opacity:1;
+  }
+
+  .nav-links .links{
+    width: 100%;
+    min-height: 45px;
+    line-height: 45px;
+    padding-left: 1rem;
+  }
+
+  .pd-block{
+    padding-block: .5rem;
+  }
+
+  .main-section .content{
+    min-width: 100%;
+    /* background-color: red; */
+  }
+  
+  .main-section .content h1{
+    font-size: 30px;
+  }
+
+  .main-section .content p{
+    font-size: 18px;
+  }
+
+  .grey-container{
+    padding-inline: 1rem;
+  }
+
+  header nav{
+   padding-inline: 1.3rem;
+  }
+
+  .hamburger-menu{
+    display: block;
+  }
+
+ .grey-container .wrapper{
+   place-items: center;
+  }
+
+  .content-container{
+   max-width: 90%;
+  }
+
+ .grey-container .button-wrapper{
+  align-items: center;
+  justify-content: center;
+ }
+
+}
+
+
+@media screen and (max-width: 786px) {
+  
+}
